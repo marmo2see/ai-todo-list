@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>AI To-Do List</h1>
+
+        <p>
+            Add your tasks and use AI to break a task into smaller steps.
+        </p>
+
+        <div class="task-input">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task..."
+            >
+
+            <button id="addButton">Add Task</button>
+
+            <button id="aiButton">AI Break Down</button>
+        </div>
+
+        <h2>My Tasks</h2>
+
+        <ul id="taskList"></ul>
+
+        <h2>AI Suggestions</h2>
+
+        <div id="aiResponse">
+            AI suggestions will appear here.
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

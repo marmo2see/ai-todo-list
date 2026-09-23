@@ -1,0 +1,17 @@
+# Gemini/API secrets
+backend/.env
+
+# Python virtual environment
+backend/venv/
+__pycache__/
+*.pyc
+
+# Terraform generated files and state
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
+terraform/tfplan
+
+# Local deployment archive
+*.tar.gz
